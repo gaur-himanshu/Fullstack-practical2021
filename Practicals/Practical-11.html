@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Footer</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+        *{
+            padding: 0; margin: 0; box-sizing: border-box;
+        }
+        .content{
+            text-align: center;
+            color: grey;
+            width: 100%;
+            height: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+        .footer{
+            background-color: black;
+            width: 100%;
+            height: 90vh;
+
+          
+        }
+        .main{
+            display: inline-flex;
+            border-bottom: 1px solid grey;
+            padding-bottom: 15px;
+        }
+        .about h3, .categories h3, .links h3, .contact h3{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            /* margin-top:px; */
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+        .about{
+            height: auto;
+            width: 40%;
+            padding: 8px;
+        }
+        .about p{
+            color:grey;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        .categories, .links, .contact{
+            height: auto;
+            width: 15%;
+            padding: 1%;
+        }
+        .contact{
+            width: 20%;
+        }
+        .categories ul{
+            list-style-type: none;
+            
+
+        }
+        .categories ul a, .links ul a, .contact ul a{
+            text-decoration: none;
+            color: grey;
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+        .categories ul a:hover,.links ul a:hover, .contact ul a:hover{
+            color: yellow;
+        }
+        .categories ul li,.links ul li, .contact ul li{
+            padding-top: 2px;
+        }
+        .ab{
+            font-family: Arial, Helvetica, sans-serif;
+            color: grey;
+            text-align: center;
+            margin-left: 600px;
+            margin-top: 20px;
+            margin-right: 10px;
+            
+            
+        }
+        .register{
+            /* height: 15vh; */
+            border-bottom: 1px solid grey;
+            /* line-height: 15vh; */
+            display: inline-flex;
+            margin-top: 20px;
+
+            width: 100%;
+            
+        }
+        .cd{
+            color: white;
+            border-radius: 20px 30px;
+            background-color: orange;
+            
+            font-family: Arial, Helvetica, sans-serif;
+        
+            padding: 30px 20px;
+            margin-bottom: 20px;
+        }
+        .cd:hover{
+            background-color: indigo;
+        }
+
+        .sec3{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid grey;
+        }
+    
+        .sec3 ul{
+            display: inline-flex;
+            padding: 20px;
+        }
+        .sec3 ul li{
+            padding: 20px;
+           
+        }
+        .sec3 ul li a{
+            font-size:30px ;
+            background-color: green;  
+            padding: 15px;         
+             border-radius: 50%;
+
+        }
+        .sec3 ul li a:hover{
+            background-color: violet;
+        }
+
+        .sec4{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sec4 p{
+            color: white;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+        .sec4 p a{
+            text-decoration: none;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Content Area</h1>
+        </div>
+        <div class="footer">
+            <div class="main">
+            <div class="about">
+                <h3>ABOUT</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, culpa delectus vel nobis suscipit beatae deleniti aliquid corrupti, reprehenderit non mollitia iste minima rem ab incidunt ipsa debitis perspiciatis ipsum eos nam distinctio. Ad molestias tenetur corrupti facere ex, quas cupiditate vero soluta magni voluptate. Fuga odio in nesciunt doloribus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis minus incidunt, ad quibusdam aspernatur ipsa cum, voluptatem odio quo commodi omnis? Tempore blanditiis quisquam ipsa, cumque doloremque neque. Vel in voluptas velit recusandae sint laborum ratione? Laboriosam eligendi cumque doloribus, necessitatibus animi mollitia natus. Similique iste sequi porro quod!</p>
+            </div>
+            <div class="categories">
+                <h3>CATEGORIES</h3>
+                <ul>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">UI Desining</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">HybridApps</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Contribute</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>CONTACT US</h3>
+                <ul>
+                    <li><a href="#"> <i class="fa fa-home"></i> SCO-75, Chandigarh, India</a></li>
+                    <li><a href="mailto:himanshu.gaur_cs19@gla.ac.in"><i class="fa fa-envelope"></i>himanshu.gaur_cs19@gla.ac.in</a></li>
+                    <li><a href="#"><i class="fa fa-phone-square"></i>Mobile: +91-9729280731</a></li>
+                    <li><a href="#"><i class="fa fa-facebook-official"></i> betalabsindia</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+            <div class="register">
+                <h2 class="ab">Register For Free</h2>
+                <a href="#" class="cd">SIGN UP!</a>
+            </div>
+            <div class="sec3">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+                
+            </div>
+
+
+            <div class="sec4">
+                <p>Copywrite 2020 All Right Reserved By
+                    <a href="https://www.beta-labs.com">Beta-Labs</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
